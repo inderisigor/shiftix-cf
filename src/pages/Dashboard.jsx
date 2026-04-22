@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Sidebar from '../components/Sidebar.jsx'
-import { apiFetch, fmtINR, getUser, StatusBadge } from '../api.js'
+import { apiFetch, fmtINR, getUser } from '../api.js'
+import StatusBadge from  '../components/StatusBadge.jsx'
 import { Link } from 'react-router-dom'
 
 const ST_COLORS = { Sent: '#3b82f6', Warm: '#f59e0b', 'On Hold': '#10b981', Won: '#22c55e', Lost: '#ef4444' }
