@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Sidebar from '../components/Sidebar.jsx'
-import { apiFetch, fmtINR, getUser, StatusBadge } from '../api.js'
+import { apiFetch, fmtINR, getUser } from '../api.js'
+import StatusBadge from '../components/StatusBadge.jsx'
 
 export default function Quotations() {
   const [quots, setQuots] = useState([])
