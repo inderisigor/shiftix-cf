@@ -3,7 +3,6 @@
 Built with React + Vite + Cloudflare Functions + Cloudflare D1
 
 ## Setup
-
 ### 1. Database Setup (Cloudflare D1)
 Go to Cloudflare Dashboard → D1 → your `shiftix-db` database → Console tab
 Run the contents of `schema.sql` to create tables and seed users.
