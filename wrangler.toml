@@ -1,0 +1,9 @@
+name = "shiftix-crm"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "shiftix-db"
+database_id = "3c8f72af-4842-4db5-bbd7-dc11056ad76d"
